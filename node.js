@@ -5,6 +5,5 @@ if (typeof window !== 'undefined') {
 }
 
 const { JSDOM } = require('jsdom');
-const DOMParser = new JSDOM();
 
-module.exports = DOMParser;
+module.exports = JSDOM;
