@@ -4,4 +4,4 @@ if (typeof window === 'undefined') {
   );
 }
 
-module.exports = window.DOMParser;
+module.exports = window;
