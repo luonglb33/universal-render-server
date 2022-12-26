@@ -6,6 +6,7 @@ Make sure that whatever build system you are using (Webpack etc) is honoring the
 
 ### Example 
 
+```
 import Vue from 'vue';
 import { renderToString } from 'vue/server-renderer'
 
@@ -19,3 +20,4 @@ renderer.renderToString(app, (err, html) => {
   console.log('html', html);
   // => <div data-server-rendered="true">Hello World</div>
 });
+```
