@@ -4,6 +4,6 @@ if (typeof window !== 'undefined') {
   );
 }
 
-const { JSDOM } = require('jsdom');
+const VueServerRenderer = require('vue-server-renderer');
 
-module.exports = JSDOM;
+module.exports = VueServerRenderer;
